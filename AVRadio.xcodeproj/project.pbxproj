@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51618D732A05302C00040E26 /* AVRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D722A05302C00040E26 /* AVRadioApp.swift */; };
+		51618D752A05302C00040E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D742A05302C00040E26 /* ContentView.swift */; };
+		51618D772A05303000040E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51618D762A05303000040E26 /* Assets.xcassets */; };
+		51618D7A2A05303000040E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51618D792A05303000040E26 /* Preview Assets.xcassets */; };
+		51618D7C2A05303000040E26 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D7B2A05303000040E26 /* Persistence.swift */; };
+		51618D7F2A05303000040E26 /* AVRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */; };
+		51618D8A2A05303100040E26 /* AVRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D892A05303100040E26 /* AVRadioTests.swift */; };
+		51618D942A05303100040E26 /* AVRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D932A05303100040E26 /* AVRadioUITests.swift */; };
+		51618D962A05303100040E26 /* AVRadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51618D862A05303100040E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51618D672A05302C00040E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51618D6E2A05302C00040E26;
+			remoteInfo = AVRadio;
+		};
+		51618D902A05303100040E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51618D672A05302C00040E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51618D6E2A05302C00040E26;
+			remoteInfo = AVRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51618D6F2A05302C00040E26 /* AVRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51618D722A05302C00040E26 /* AVRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioApp.swift; sourceTree = "<group>"; };
+		51618D742A05302C00040E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51618D762A05303000040E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51618D792A05303000040E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51618D7B2A05303000040E26 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		51618D7E2A05303000040E26 /* AVRadio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AVRadio.xcdatamodel; sourceTree = "<group>"; };
+		51618D802A05303000040E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51618D852A05303100040E26 /* AVRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51618D892A05303100040E26 /* AVRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioTests.swift; sourceTree = "<group>"; };
+		51618D8F2A05303100040E26 /* AVRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51618D932A05303100040E26 /* AVRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITests.swift; sourceTree = "<group>"; };
+		51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51618D6C2A05302C00040E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51618D822A05303100040E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51618D8C2A05303100040E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51618D662A05302C00040E26 = {
+			isa = PBXGroup;
+			children = (
+				51618D712A05302C00040E26 /* AVRadio */,
+				51618D882A05303100040E26 /* AVRadioTests */,
+				51618D922A05303100040E26 /* AVRadioUITests */,
+				51618D702A05302C00040E26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51618D702A05302C00040E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51618D6F2A05302C00040E26 /* AVRadio.app */,
+				51618D852A05303100040E26 /* AVRadioTests.xctest */,
+				51618D8F2A05303100040E26 /* AVRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51618D712A05302C00040E26 /* AVRadio */ = {
+			isa = PBXGroup;
+			children = (
+				51618D722A05302C00040E26 /* AVRadioApp.swift */,
+				51618D742A05302C00040E26 /* ContentView.swift */,
+				51618D762A05303000040E26 /* Assets.xcassets */,
+				51618D7B2A05303000040E26 /* Persistence.swift */,
+				51618D802A05303000040E26 /* Info.plist */,
+				51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */,
+				51618D782A05303000040E26 /* Preview Content */,
+			);
+			path = AVRadio;
+			sourceTree = "<group>";
+		};
+		51618D782A05303000040E26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51618D792A05303000040E26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51618D882A05303100040E26 /* AVRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				51618D892A05303100040E26 /* AVRadioTests.swift */,
+			);
+			path = AVRadioTests;
+			sourceTree = "<group>";
+		};
+		51618D922A05303100040E26 /* AVRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51618D932A05303100040E26 /* AVRadioUITests.swift */,
+				51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */,
+			);
+			path = AVRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51618D6E2A05302C00040E26 /* AVRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51618D992A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadio" */;
+			buildPhases = (
+				51618D6B2A05302C00040E26 /* Sources */,
+				51618D6C2A05302C00040E26 /* Frameworks */,
+				51618D6D2A05302C00040E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVRadio;
+			productName = AVRadio;
+			productReference = 51618D6F2A05302C00040E26 /* AVRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51618D842A05303100040E26 /* AVRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51618D9C2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioTests" */;
+			buildPhases = (
+				51618D812A05303100040E26 /* Sources */,
+				51618D822A05303100040E26 /* Frameworks */,
+				51618D832A05303100040E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51618D872A05303100040E26 /* PBXTargetDependency */,
+			);
+			name = AVRadioTests;
+			productName = AVRadioTests;
+			productReference = 51618D852A05303100040E26 /* AVRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51618D8E2A05303100040E26 /* AVRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51618D9F2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioUITests" */;
+			buildPhases = (
+				51618D8B2A05303100040E26 /* Sources */,
+				51618D8C2A05303100040E26 /* Frameworks */,
+				51618D8D2A05303100040E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51618D912A05303100040E26 /* PBXTargetDependency */,
+			);
+			name = AVRadioUITests;
+			productName = AVRadioUITests;
+			productReference = 51618D8F2A05303100040E26 /* AVRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51618D672A05302C00040E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					51618D6E2A05302C00040E26 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					51618D842A05303100040E26 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 51618D6E2A05302C00040E26;
+					};
+					51618D8E2A05303100040E26 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 51618D6E2A05302C00040E26;
+					};
+				};
+			};
+			buildConfigurationList = 51618D6A2A05302C00040E26 /* Build configuration list for PBXProject "AVRadio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51618D662A05302C00040E26;
+			productRefGroup = 51618D702A05302C00040E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51618D6E2A05302C00040E26 /* AVRadio */,
+				51618D842A05303100040E26 /* AVRadioTests */,
+				51618D8E2A05303100040E26 /* AVRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51618D6D2A05302C00040E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51618D7A2A05303000040E26 /* Preview Assets.xcassets in Resources */,
+				51618D772A05303000040E26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51618D832A05303100040E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51618D8D2A05303100040E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51618D6B2A05302C00040E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51618D7C2A05303000040E26 /* Persistence.swift in Sources */,
+				51618D752A05302C00040E26 /* ContentView.swift in Sources */,
+				51618D7F2A05303000040E26 /* AVRadio.xcdatamodeld in Sources */,
+				51618D732A05302C00040E26 /* AVRadioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51618D812A05303100040E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51618D8A2A05303100040E26 /* AVRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51618D8B2A05303100040E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51618D942A05303100040E26 /* AVRadioUITests.swift in Sources */,
+				51618D962A05303100040E26 /* AVRadioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51618D872A05303100040E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51618D6E2A05302C00040E26 /* AVRadio */;
+			targetProxy = 51618D862A05303100040E26 /* PBXContainerItemProxy */;
+		};
+		51618D912A05303100040E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51618D6E2A05302C00040E26 /* AVRadio */;
+			targetProxy = 51618D902A05303100040E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51618D972A05303100040E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51618D982A05303100040E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51618D9A2A05303100040E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AVRadio/Preview Content\"";
+				DEVELOPMENT_TEAM = XCJV4WY6G8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51618D9B2A05303100040E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AVRadio/Preview Content\"";
+				DEVELOPMENT_TEAM = XCJV4WY6G8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51618D9D2A05303100040E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCJV4WY6G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AVRadio";
+			};
+			name = Debug;
+		};
+		51618D9E2A05303100040E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCJV4WY6G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AVRadio";
+			};
+			name = Release;
+		};
+		51618DA02A05303100040E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCJV4WY6G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVRadio;
+			};
+			name = Debug;
+		};
+		51618DA12A05303100040E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCJV4WY6G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51618D6A2A05302C00040E26 /* Build configuration list for PBXProject "AVRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51618D972A05303100040E26 /* Debug */,
+				51618D982A05303100040E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51618D992A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51618D9A2A05303100040E26 /* Debug */,
+				51618D9B2A05303100040E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51618D9C2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51618D9D2A05303100040E26 /* Debug */,
+				51618D9E2A05303100040E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51618D9F2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51618DA02A05303100040E26 /* Debug */,
+				51618DA12A05303100040E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51618D7E2A05303000040E26 /* AVRadio.xcdatamodel */,
+			);
+			currentVersion = 51618D7E2A05303000040E26 /* AVRadio.xcdatamodel */;
+			path = AVRadio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51618D672A05302C00040E26 /* Project object */;
+}

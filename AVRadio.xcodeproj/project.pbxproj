@@ -16,6 +16,11 @@
 		51618D8A2A05303100040E26 /* AVRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D892A05303100040E26 /* AVRadioTests.swift */; };
 		51618D942A05303100040E26 /* AVRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D932A05303100040E26 /* AVRadioUITests.swift */; };
 		51618D962A05303100040E26 /* AVRadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */; };
+		51618DA32A05322A00040E26 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA22A05322A00040E26 /* PlayerManager.swift */; };
+		51618DA52A05325900040E26 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA42A05325900040E26 /* PlayerView.swift */; };
+		51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA82A053FFD00040E26 /* AirPlayView.swift */; };
+		51618DAB2A05481B00040E26 /* WavyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAA2A05481B00040E26 /* WavyAnimation.swift */; };
+		51618DAD2A07D4A100040E26 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAC2A07D4A100040E26 /* AudioVisualizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		51618D8F2A05303100040E26 /* AVRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51618D932A05303100040E26 /* AVRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITests.swift; sourceTree = "<group>"; };
 		51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51618DA22A05322A00040E26 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		51618DA42A05325900040E26 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		51618DA82A053FFD00040E26 /* AirPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayView.swift; sourceTree = "<group>"; };
+		51618DAA2A05481B00040E26 /* WavyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyAnimation.swift; sourceTree = "<group>"; };
+		51618DAC2A07D4A100040E26 /* AudioVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVisualizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,11 @@
 			children = (
 				51618D722A05302C00040E26 /* AVRadioApp.swift */,
 				51618D742A05302C00040E26 /* ContentView.swift */,
+				51618DA42A05325900040E26 /* PlayerView.swift */,
+				51618DAA2A05481B00040E26 /* WavyAnimation.swift */,
+				51618DAC2A07D4A100040E26 /* AudioVisualizer.swift */,
+				51618DA82A053FFD00040E26 /* AirPlayView.swift */,
+				51618DA22A05322A00040E26 /* PlayerManager.swift */,
 				51618D762A05303000040E26 /* Assets.xcassets */,
 				51618D7B2A05303000040E26 /* Persistence.swift */,
 				51618D802A05303000040E26 /* Info.plist */,
@@ -268,6 +283,11 @@
 				51618D7C2A05303000040E26 /* Persistence.swift in Sources */,
 				51618D752A05302C00040E26 /* ContentView.swift in Sources */,
 				51618D7F2A05303000040E26 /* AVRadio.xcdatamodeld in Sources */,
+				51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */,
+				51618DA52A05325900040E26 /* PlayerView.swift in Sources */,
+				51618DAB2A05481B00040E26 /* WavyAnimation.swift in Sources */,
+				51618DA32A05322A00040E26 /* PlayerManager.swift in Sources */,
+				51618DAD2A07D4A100040E26 /* AudioVisualizer.swift in Sources */,
 				51618D732A05302C00040E26 /* AVRadioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -409,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,11 +450,12 @@
 				DEVELOPMENT_TEAM = XCJV4WY6G8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AVRadio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,9 +463,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,11 +483,12 @@
 				DEVELOPMENT_TEAM = XCJV4WY6G8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AVRadio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,9 +496,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

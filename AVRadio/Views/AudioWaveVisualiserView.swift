@@ -1,5 +1,5 @@
 //
-//  AudioVisualizer.swift
+//  AudioWaveVisualiserView.swift
 //  AVRadio
 //
 //  Created by Artemy Volkov on 07.05.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AudioVisualizer: View {
+struct AudioWaveVisualiserView: View {
     @Binding var isPlaying: Bool
     @State private var isAnimating = false
     
@@ -23,7 +23,7 @@ struct AudioVisualizer: View {
             }
             .animation(.easeInOut(duration: 0.25), value: isAnimating)
         }
-        .frame(width: 50, height: 50)
+        .frame(height: 50)
         .onAppear(perform: startTimer)
     }
     
@@ -35,11 +35,5 @@ struct AudioVisualizer: View {
                 isAnimating = false
             }
         }
-    }
-}
-
-struct AudioVisualizer_Previews: PreviewProvider {
-    static var previews: some View {
-        AudioVisualizer(isPlaying: .constant(true))
     }
 }

@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct WavyAnimation: View {
+struct VisualiserView: View {
     @Binding var isPlaying: Bool
+    @Binding var isVisualising: Bool
     @State private var isAnimating = false
     
     var body: some View {
         ZStack {
             RadialGradient(
-                colors: [.black, .black, .black, .black, .accentColor, .black, .black, .black, .black],
+                colors: [.clear, .clear, .clear, .accentColor, .clear, .clear, .clear],
                 center: .center,
                 startRadius: 0,
                 endRadius: isAnimating ? .random(in: 1500...2500) : 0
@@ -45,17 +46,11 @@ struct WavyAnimation: View {
     
     private func startTimer() {
         Timer.scheduledTimer(withTimeInterval: 2.5, repeats: true) { _ in
-            if isPlaying {
+            if isPlaying && isVisualising {
                 isAnimating.toggle()
             } else {
                 isAnimating = false
             }
         }
-    }
-}
-
-struct WavyAnimation_Previews: PreviewProvider {
-    static var previews: some View {
-        WavyAnimation(isPlaying: .constant(true))
     }
 }

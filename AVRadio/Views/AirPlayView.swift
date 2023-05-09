@@ -15,24 +15,13 @@ struct AirPlayView: View {
 }
 
 struct AirPlayViewRepresentable: UIViewRepresentable {
-    func updateUIView(_ uiView: UIView, context: Context) {
-        
-    }
-    
+    func updateUIView(_ uiView: UIView, context: Context) { }
     
     func makeUIView(context: Context) -> UIView {
-        
         let routePickerView = AVRoutePickerView()
-        routePickerView.backgroundColor = UIColor.clear
-        routePickerView.activeTintColor = UIColor.red.withAlphaComponent(0.5)
-        routePickerView.tintColor = UIColor(named: "red")
+        routePickerView.backgroundColor = .clear
+        routePickerView.activeTintColor = .label
         
         return routePickerView
-    }
-}
-
-struct AirPlayView_Previews: PreviewProvider {
-    static var previews: some View {
-        AirPlayView()
     }
 }

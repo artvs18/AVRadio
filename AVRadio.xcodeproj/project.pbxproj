@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5156B32A2A0A6E07006B5D8D /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156B3292A0A6E07006B5D8D /* RadioStation.swift */; };
+		5156B32C2A0A6E68006B5D8D /* RadioAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156B32B2A0A6E68006B5D8D /* RadioAPIClient.swift */; };
+		5156B32E2A0A6EC1006B5D8D /* RadioStationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156B32D2A0A6EC1006B5D8D /* RadioStationsViewModel.swift */; };
+		5156B3302A0A6EF1006B5D8D /* RadioStationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156B32F2A0A6EF1006B5D8D /* RadioStationsView.swift */; };
 		51618D732A05302C00040E26 /* AVRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D722A05302C00040E26 /* AVRadioApp.swift */; };
-		51618D752A05302C00040E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D742A05302C00040E26 /* ContentView.swift */; };
 		51618D772A05303000040E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51618D762A05303000040E26 /* Assets.xcassets */; };
 		51618D7A2A05303000040E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51618D792A05303000040E26 /* Preview Assets.xcassets */; };
 		51618D7C2A05303000040E26 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D7B2A05303000040E26 /* Persistence.swift */; };
@@ -16,11 +19,13 @@
 		51618D8A2A05303100040E26 /* AVRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D892A05303100040E26 /* AVRadioTests.swift */; };
 		51618D942A05303100040E26 /* AVRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D932A05303100040E26 /* AVRadioUITests.swift */; };
 		51618D962A05303100040E26 /* AVRadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */; };
-		51618DA32A05322A00040E26 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA22A05322A00040E26 /* PlayerManager.swift */; };
 		51618DA52A05325900040E26 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA42A05325900040E26 /* PlayerView.swift */; };
 		51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA82A053FFD00040E26 /* AirPlayView.swift */; };
-		51618DAB2A05481B00040E26 /* WavyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAA2A05481B00040E26 /* WavyAnimation.swift */; };
-		51618DAD2A07D4A100040E26 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAC2A07D4A100040E26 /* AudioVisualizer.swift */; };
+		51618DAB2A05481B00040E26 /* VisualiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAA2A05481B00040E26 /* VisualiserView.swift */; };
+		51618DAD2A07D4A100040E26 /* AudioWaveVisualiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */; };
+		51D9C3C42A093142000AF923 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9C3C32A093142000AF923 /* Color + Extension.swift */; };
+		51D9C3C72A09605C000AF923 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9C3C62A09605C000AF923 /* PlayerViewModel.swift */; };
+		51EB0C912A0A9BBE000C276B /* PlayPauseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB0C902A0A9BBE000C276B /* PlayPauseButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5156B3292A0A6E07006B5D8D /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		5156B32B2A0A6E68006B5D8D /* RadioAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAPIClient.swift; sourceTree = "<group>"; };
+		5156B32D2A0A6EC1006B5D8D /* RadioStationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationsViewModel.swift; sourceTree = "<group>"; };
+		5156B32F2A0A6EF1006B5D8D /* RadioStationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationsView.swift; sourceTree = "<group>"; };
 		51618D6F2A05302C00040E26 /* AVRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51618D722A05302C00040E26 /* AVRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioApp.swift; sourceTree = "<group>"; };
-		51618D742A05302C00040E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51618D762A05303000040E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51618D792A05303000040E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51618D7B2A05303000040E26 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -54,11 +62,13 @@
 		51618D8F2A05303100040E26 /* AVRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51618D932A05303100040E26 /* AVRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITests.swift; sourceTree = "<group>"; };
 		51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		51618DA22A05322A00040E26 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		51618DA42A05325900040E26 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		51618DA82A053FFD00040E26 /* AirPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayView.swift; sourceTree = "<group>"; };
-		51618DAA2A05481B00040E26 /* WavyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyAnimation.swift; sourceTree = "<group>"; };
-		51618DAC2A07D4A100040E26 /* AudioVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVisualizer.swift; sourceTree = "<group>"; };
+		51618DAA2A05481B00040E26 /* VisualiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualiserView.swift; sourceTree = "<group>"; };
+		51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveVisualiserView.swift; sourceTree = "<group>"; };
+		51D9C3C32A093142000AF923 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+		51D9C3C62A09605C000AF923 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		51EB0C902A0A9BBE000C276B /* PlayPauseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514586742A09AEC0002F4745 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5156B32B2A0A6E68006B5D8D /* RadioAPIClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		514586772A09AF63002F4745 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5156B3292A0A6E07006B5D8D /* RadioStation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		51618D662A05302C00040E26 = {
 			isa = PBXGroup;
 			children = (
@@ -109,17 +135,15 @@
 		51618D712A05302C00040E26 /* AVRadio */ = {
 			isa = PBXGroup;
 			children = (
-				51618D722A05302C00040E26 /* AVRadioApp.swift */,
-				51618D742A05302C00040E26 /* ContentView.swift */,
-				51618DA42A05325900040E26 /* PlayerView.swift */,
-				51618DAA2A05481B00040E26 /* WavyAnimation.swift */,
-				51618DAC2A07D4A100040E26 /* AudioVisualizer.swift */,
-				51618DA82A053FFD00040E26 /* AirPlayView.swift */,
-				51618DA22A05322A00040E26 /* PlayerManager.swift */,
+				51D9C3CB2A098C75000AF923 /* App */,
+				514586772A09AF63002F4745 /* Models */,
+				51D9C3CA2A098C43000AF923 /* Views */,
+				51D9C3C82A098C08000AF923 /* ViewModels */,
+				514586742A09AEC0002F4745 /* Services */,
+				51D9C3C92A098C1E000AF923 /* CoreData */,
+				51D9C3C52A095E39000AF923 /* Extensions */,
 				51618D762A05303000040E26 /* Assets.xcassets */,
-				51618D7B2A05303000040E26 /* Persistence.swift */,
 				51618D802A05303000040E26 /* Info.plist */,
-				51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */,
 				51618D782A05303000040E26 /* Preview Content */,
 			);
 			path = AVRadio;
@@ -148,6 +172,53 @@
 				51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */,
 			);
 			path = AVRadioUITests;
+			sourceTree = "<group>";
+		};
+		51D9C3C52A095E39000AF923 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51D9C3C32A093142000AF923 /* Color + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		51D9C3C82A098C08000AF923 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5156B32D2A0A6EC1006B5D8D /* RadioStationsViewModel.swift */,
+				51D9C3C62A09605C000AF923 /* PlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		51D9C3C92A098C1E000AF923 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				51618D7B2A05303000040E26 /* Persistence.swift */,
+				51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		51D9C3CA2A098C43000AF923 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5156B32F2A0A6EF1006B5D8D /* RadioStationsView.swift */,
+				51618DA42A05325900040E26 /* PlayerView.swift */,
+				51EB0C902A0A9BBE000C276B /* PlayPauseButtonView.swift */,
+				51618DAA2A05481B00040E26 /* VisualiserView.swift */,
+				51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */,
+				51618DA82A053FFD00040E26 /* AirPlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51D9C3CB2A098C75000AF923 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				51618D722A05302C00040E26 /* AVRadioApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,15 +351,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EB0C912A0A9BBE000C276B /* PlayPauseButtonView.swift in Sources */,
+				5156B3302A0A6EF1006B5D8D /* RadioStationsView.swift in Sources */,
 				51618D7C2A05303000040E26 /* Persistence.swift in Sources */,
-				51618D752A05302C00040E26 /* ContentView.swift in Sources */,
 				51618D7F2A05303000040E26 /* AVRadio.xcdatamodeld in Sources */,
 				51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */,
 				51618DA52A05325900040E26 /* PlayerView.swift in Sources */,
-				51618DAB2A05481B00040E26 /* WavyAnimation.swift in Sources */,
-				51618DA32A05322A00040E26 /* PlayerManager.swift in Sources */,
-				51618DAD2A07D4A100040E26 /* AudioVisualizer.swift in Sources */,
+				5156B32C2A0A6E68006B5D8D /* RadioAPIClient.swift in Sources */,
+				51618DAB2A05481B00040E26 /* VisualiserView.swift in Sources */,
+				5156B32A2A0A6E07006B5D8D /* RadioStation.swift in Sources */,
+				51618DAD2A07D4A100040E26 /* AudioWaveVisualiserView.swift in Sources */,
+				5156B32E2A0A6EC1006B5D8D /* RadioStationsViewModel.swift in Sources */,
 				51618D732A05302C00040E26 /* AVRadioApp.swift in Sources */,
+				51D9C3C42A093142000AF923 /* Color + Extension.swift in Sources */,
+				51D9C3C72A09605C000AF923 /* PlayerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +531,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +565,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

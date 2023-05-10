@@ -8,7 +8,8 @@
 import Foundation
 import Combine
 
-class RadioBrowserAPIClient {
+// MARK: - Radio API Client
+class RadioAPIClient {
     private let baseURL = "http://de1.api.radio-browser.info/json/"
     
     func fetchStationsByCountryCode(_ countryCode: String) -> AnyPublisher<[RadioStation], Error> {

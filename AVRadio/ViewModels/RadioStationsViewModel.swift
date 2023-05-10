@@ -7,18 +7,50 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 class RadioStationsViewModel: ObservableObject {
+    @AppStorage("selectedCountryCode") private var storedCountryCode: String = CountryCode.ru.rawValue
     @Published private(set) var radioStations: [RadioStation] = []
-    private var cancellables: Set<AnyCancellable> = []
-    private let apiClient: RadioBrowserAPIClient
+    @Published private(set) var favoriteStations: [RadioStation] = []
+    @Published private(set) var isLoading = true
     
-    init(apiClient: RadioBrowserAPIClient = RadioBrowserAPIClient()) {
-        self.apiClient = apiClient
+    @Published var needUpdate = true
+    
+    
+    @Published var countryCode: CountryCode = .ru {
+        didSet {
+            storedCountryCode = countryCode.rawValue
+        }
     }
     
-    func fetchRadioStations(countryCode: String) {
-        apiClient.fetchStationsByCountryCode(countryCode)
+    @Published var isFavoritesShowing = false {
+        didSet {
+            if isFavoritesShowing {
+                fetchFavoriteStations()
+            }
+        }
+    }
+    
+    private var cancellables: Set<AnyCancellable> = []
+    private let apiClient: RadioAPIClient
+    private let favoritesManager: FavoritesManager
+    
+    init(apiClient: RadioAPIClient = RadioAPIClient()) {
+        self.apiClient = apiClient
+        self.favoritesManager = FavoritesManager()
+        if let initialCountryCode = CountryCode(rawValue: storedCountryCode) {
+            self.countryCode = initialCountryCode
+        }
+        fetchFavoriteStations()
+    }
+    
+    // MARK: - Fetch Radio Stations from Server
+    func fetchRadioStations() {
+        guard needUpdate else { return }
+        isLoading = true
+        
+        apiClient.fetchStationsByCountryCode(countryCode.rawValue)
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completion in
                 switch completion {
@@ -36,7 +68,28 @@ class RadioStationsViewModel: ObservableObject {
                     station.favicon.hasPrefix("https")
                 }
                 self?.radioStations = filteredStations
+                self?.isLoading = false
+                self?.needUpdate = false
             })
             .store(in: &cancellables)
+    }
+}
+
+// MARK: - Favorite Stations Methods
+extension RadioStationsViewModel {
+    private func fetchFavoriteStations() {
+        favoriteStations = favoritesManager.load()
+    }
+    
+    func addToFavorites(station: RadioStation) {
+        if !favoriteStations.contains(where: { $0.url == station.url }) {
+            favoriteStations.append(station)
+            favoritesManager.save(favoriteStations: favoriteStations)
+        }
+    }
+
+    func removeFromFavorites(station: RadioStation) {
+        favoriteStations.removeAll { $0.url == station.url }
+        favoritesManager.save(favoriteStations: favoriteStations)
     }
 }

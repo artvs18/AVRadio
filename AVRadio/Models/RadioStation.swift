@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RadioStation: Decodable {
+struct RadioStation: Codable {
     let id = UUID()
     let name: String
     let url: String

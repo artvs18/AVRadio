@@ -11,13 +11,12 @@ struct PlayerView: View {
     @AppStorage("keyColor") var keyColor = Color.primary
     @ObservedObject private var viewModel = PlayerViewModel.shared
     
-    @Environment(\.verticalSizeClass) private var verticalSizeClass
-    
     @State private var isVisualising = false
     @State private var isPlaying = false
     
     let radioStation: RadioStation
     
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
     private var isPortrait: Bool {
         verticalSizeClass == .regular
     }

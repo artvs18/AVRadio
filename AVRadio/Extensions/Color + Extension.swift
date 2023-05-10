@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: - Color extension to store color data in UserDefaults
 extension Color: RawRepresentable {
 
     public init?(rawValue: String) {

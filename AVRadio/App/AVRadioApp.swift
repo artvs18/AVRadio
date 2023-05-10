@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct AVRadioApp: App {
-    let persistenceController = PersistenceController.shared
+    let radioStationsViewModel = RadioStationsViewModel()
 
     var body: some Scene {
         WindowGroup {
             RadioStationsView()
+                .environmentObject(radioStationsViewModel)
         }
     }
 }

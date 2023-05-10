@@ -14,36 +14,16 @@
 		51618D732A05302C00040E26 /* AVRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D722A05302C00040E26 /* AVRadioApp.swift */; };
 		51618D772A05303000040E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51618D762A05303000040E26 /* Assets.xcassets */; };
 		51618D7A2A05303000040E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51618D792A05303000040E26 /* Preview Assets.xcassets */; };
-		51618D7C2A05303000040E26 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D7B2A05303000040E26 /* Persistence.swift */; };
-		51618D7F2A05303000040E26 /* AVRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */; };
-		51618D8A2A05303100040E26 /* AVRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D892A05303100040E26 /* AVRadioTests.swift */; };
-		51618D942A05303100040E26 /* AVRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D932A05303100040E26 /* AVRadioUITests.swift */; };
-		51618D962A05303100040E26 /* AVRadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */; };
 		51618DA52A05325900040E26 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA42A05325900040E26 /* PlayerView.swift */; };
 		51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA82A053FFD00040E26 /* AirPlayView.swift */; };
 		51618DAB2A05481B00040E26 /* VisualiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAA2A05481B00040E26 /* VisualiserView.swift */; };
 		51618DAD2A07D4A100040E26 /* AudioWaveVisualiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */; };
+		51C83E682A0B0E95009979ED /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C83E672A0B0E95009979ED /* CountryCodes.swift */; };
+		51C83E782A0B1DB6009979ED /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C83E772A0B1DB6009979ED /* FavoritesManager.swift */; };
 		51D9C3C42A093142000AF923 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9C3C32A093142000AF923 /* Color + Extension.swift */; };
 		51D9C3C72A09605C000AF923 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9C3C62A09605C000AF923 /* PlayerViewModel.swift */; };
 		51EB0C912A0A9BBE000C276B /* PlayPauseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB0C902A0A9BBE000C276B /* PlayPauseButtonView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		51618D862A05303100040E26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51618D672A05302C00040E26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51618D6E2A05302C00040E26;
-			remoteInfo = AVRadio;
-		};
-		51618D902A05303100040E26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51618D672A05302C00040E26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51618D6E2A05302C00040E26;
-			remoteInfo = AVRadio;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5156B3292A0A6E07006B5D8D /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
@@ -54,18 +34,13 @@
 		51618D722A05302C00040E26 /* AVRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioApp.swift; sourceTree = "<group>"; };
 		51618D762A05303000040E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51618D792A05303000040E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		51618D7B2A05303000040E26 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		51618D7E2A05303000040E26 /* AVRadio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AVRadio.xcdatamodel; sourceTree = "<group>"; };
 		51618D802A05303000040E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51618D852A05303100040E26 /* AVRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51618D892A05303100040E26 /* AVRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioTests.swift; sourceTree = "<group>"; };
-		51618D8F2A05303100040E26 /* AVRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51618D932A05303100040E26 /* AVRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITests.swift; sourceTree = "<group>"; };
-		51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVRadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		51618DA42A05325900040E26 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		51618DA82A053FFD00040E26 /* AirPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayView.swift; sourceTree = "<group>"; };
 		51618DAA2A05481B00040E26 /* VisualiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualiserView.swift; sourceTree = "<group>"; };
 		51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveVisualiserView.swift; sourceTree = "<group>"; };
+		51C83E672A0B0E95009979ED /* CountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
+		51C83E772A0B1DB6009979ED /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 		51D9C3C32A093142000AF923 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 		51D9C3C62A09605C000AF923 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		51EB0C902A0A9BBE000C276B /* PlayPauseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseButtonView.swift; sourceTree = "<group>"; };
@@ -79,20 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51618D822A05303100040E26 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51618D8C2A05303100040E26 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				5156B32B2A0A6E68006B5D8D /* RadioAPIClient.swift */,
+				51C83E772A0B1DB6009979ED /* FavoritesManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -116,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				51618D712A05302C00040E26 /* AVRadio */,
-				51618D882A05303100040E26 /* AVRadioTests */,
-				51618D922A05303100040E26 /* AVRadioUITests */,
 				51618D702A05302C00040E26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				51618D6F2A05302C00040E26 /* AVRadio.app */,
-				51618D852A05303100040E26 /* AVRadioTests.xctest */,
-				51618D8F2A05303100040E26 /* AVRadioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +98,8 @@
 				51D9C3CA2A098C43000AF923 /* Views */,
 				51D9C3C82A098C08000AF923 /* ViewModels */,
 				514586742A09AEC0002F4745 /* Services */,
-				51D9C3C92A098C1E000AF923 /* CoreData */,
 				51D9C3C52A095E39000AF923 /* Extensions */,
-				51618D762A05303000040E26 /* Assets.xcassets */,
+				51C83E662A0B0E81009979ED /* Resources */,
 				51618D802A05303000040E26 /* Info.plist */,
 				51618D782A05303000040E26 /* Preview Content */,
 			);
@@ -157,21 +114,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		51618D882A05303100040E26 /* AVRadioTests */ = {
+		51C83E662A0B0E81009979ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				51618D892A05303100040E26 /* AVRadioTests.swift */,
+				51618D762A05303000040E26 /* Assets.xcassets */,
+				51C83E672A0B0E95009979ED /* CountryCodes.swift */,
 			);
-			path = AVRadioTests;
-			sourceTree = "<group>";
-		};
-		51618D922A05303100040E26 /* AVRadioUITests */ = {
-			isa = PBXGroup;
-			children = (
-				51618D932A05303100040E26 /* AVRadioUITests.swift */,
-				51618D952A05303100040E26 /* AVRadioUITestsLaunchTests.swift */,
-			);
-			path = AVRadioUITests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		51D9C3C52A095E39000AF923 /* Extensions */ = {
@@ -189,15 +138,6 @@
 				51D9C3C62A09605C000AF923 /* PlayerViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		51D9C3C92A098C1E000AF923 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				51618D7B2A05303000040E26 /* Persistence.swift */,
-				51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		51D9C3CA2A098C43000AF923 /* Views */ = {
@@ -241,42 +181,6 @@
 			productReference = 51618D6F2A05302C00040E26 /* AVRadio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		51618D842A05303100040E26 /* AVRadioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51618D9C2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioTests" */;
-			buildPhases = (
-				51618D812A05303100040E26 /* Sources */,
-				51618D822A05303100040E26 /* Frameworks */,
-				51618D832A05303100040E26 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				51618D872A05303100040E26 /* PBXTargetDependency */,
-			);
-			name = AVRadioTests;
-			productName = AVRadioTests;
-			productReference = 51618D852A05303100040E26 /* AVRadioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		51618D8E2A05303100040E26 /* AVRadioUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51618D9F2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioUITests" */;
-			buildPhases = (
-				51618D8B2A05303100040E26 /* Sources */,
-				51618D8C2A05303100040E26 /* Frameworks */,
-				51618D8D2A05303100040E26 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				51618D912A05303100040E26 /* PBXTargetDependency */,
-			);
-			name = AVRadioUITests;
-			productName = AVRadioUITests;
-			productReference = 51618D8F2A05303100040E26 /* AVRadioUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,14 +193,6 @@
 				TargetAttributes = {
 					51618D6E2A05302C00040E26 = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					51618D842A05303100040E26 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 51618D6E2A05302C00040E26;
-					};
-					51618D8E2A05303100040E26 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 51618D6E2A05302C00040E26;
 					};
 				};
 			};
@@ -314,8 +210,6 @@
 			projectRoot = "";
 			targets = (
 				51618D6E2A05302C00040E26 /* AVRadio */,
-				51618D842A05303100040E26 /* AVRadioTests */,
-				51618D8E2A05303100040E26 /* AVRadioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,20 +224,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51618D832A05303100040E26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51618D8D2A05303100040E26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -353,9 +233,9 @@
 			files = (
 				51EB0C912A0A9BBE000C276B /* PlayPauseButtonView.swift in Sources */,
 				5156B3302A0A6EF1006B5D8D /* RadioStationsView.swift in Sources */,
-				51618D7C2A05303000040E26 /* Persistence.swift in Sources */,
-				51618D7F2A05303000040E26 /* AVRadio.xcdatamodeld in Sources */,
 				51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */,
+				51C83E782A0B1DB6009979ED /* FavoritesManager.swift in Sources */,
+				51C83E682A0B0E95009979ED /* CountryCodes.swift in Sources */,
 				51618DA52A05325900040E26 /* PlayerView.swift in Sources */,
 				5156B32C2A0A6E68006B5D8D /* RadioAPIClient.swift in Sources */,
 				51618DAB2A05481B00040E26 /* VisualiserView.swift in Sources */,
@@ -368,37 +248,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51618D812A05303100040E26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51618D8A2A05303100040E26 /* AVRadioTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51618D8B2A05303100040E26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51618D942A05303100040E26 /* AVRadioUITests.swift in Sources */,
-				51618D962A05303100040E26 /* AVRadioUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		51618D872A05303100040E26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 51618D6E2A05302C00040E26 /* AVRadio */;
-			targetProxy = 51618D862A05303100040E26 /* PBXContainerItemProxy */;
-		};
-		51618D912A05303100040E26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 51618D6E2A05302C00040E26 /* AVRadio */;
-			targetProxy = 51618D902A05303100040E26 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		51618D972A05303100040E26 /* Debug */ = {
@@ -583,82 +433,6 @@
 			};
 			name = Release;
 		};
-		51618D9D2A05303100040E26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XCJV4WY6G8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AVRadio";
-			};
-			name = Debug;
-		};
-		51618D9E2A05303100040E26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XCJV4WY6G8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AVRadio";
-			};
-			name = Release;
-		};
-		51618DA02A05303100040E26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XCJV4WY6G8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AVRadio;
-			};
-			name = Debug;
-		};
-		51618DA12A05303100040E26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XCJV4WY6G8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.artvs18.AVRadioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AVRadio;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -680,38 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51618D9C2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51618D9D2A05303100040E26 /* Debug */,
-				51618D9E2A05303100040E26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		51618D9F2A05303100040E26 /* Build configuration list for PBXNativeTarget "AVRadioUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51618DA02A05303100040E26 /* Debug */,
-				51618DA12A05303100040E26 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		51618D7D2A05303000040E26 /* AVRadio.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				51618D7E2A05303000040E26 /* AVRadio.xcdatamodel */,
-			);
-			currentVersion = 51618D7E2A05303000040E26 /* AVRadio.xcdatamodel */;
-			path = AVRadio.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 51618D672A05302C00040E26 /* Project object */;
 }

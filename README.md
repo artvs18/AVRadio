@@ -20,7 +20,7 @@ AVRadio is an iOS, iPadOS and MacOS radio streaming app built with SwiftUI. The 
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/AVRadio.git
+git clone https://github.com/artvs18/AVRadio.git
 ```
 
 2. Open `AVRadio.xcodeproj` in Xcode.

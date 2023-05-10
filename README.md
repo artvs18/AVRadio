@@ -43,7 +43,7 @@ git clone https://github.com/artvs18/AVRadio.git
     <td><img src="https://github.com/artvs18/AVRadio/assets/59523003/0eac7fdd-88fc-48df-8c5b-1a9ee445031c" width="200"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/artvs18/AVRadio/assets/59523003/4fdbc28b-2bae-4c15-a285-9a319a1511da" width="200"></td>
+    <td><img src="https://github.com/artvs18/AVRadio/assets/59523003/d7abbe5c-c63a-4838-bec7-002b45a64e23" width="200"></td>
     <td><img src="https://github.com/artvs18/AVRadio/assets/59523003/190a12ef-69a3-47e1-a9a4-69bf671998e2" width="200"></td>
     <td><img src="https://github.com/artvs18/AVRadio/assets/59523003/6e8ff98b-6a5a-4ad8-8bce-3595ab0b7ef8" width="200"></td>
     <td><img src="https://github.com/artvs18/AVRadio/assets/59523003/1d22cea2-545e-4fe1-a627-480cce0aa3d8" width="200"></td>

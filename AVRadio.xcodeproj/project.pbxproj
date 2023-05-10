@@ -18,6 +18,7 @@
 		51618DA92A053FFD00040E26 /* AirPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DA82A053FFD00040E26 /* AirPlayView.swift */; };
 		51618DAB2A05481B00040E26 /* VisualiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAA2A05481B00040E26 /* VisualiserView.swift */; };
 		51618DAD2A07D4A100040E26 /* AudioWaveVisualiserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */; };
+		519B404E2A0BEF9E005206EF /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 519B404D2A0BEF9E005206EF /* LICENSE.md */; };
 		51C83E682A0B0E95009979ED /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C83E672A0B0E95009979ED /* CountryCodes.swift */; };
 		51C83E782A0B1DB6009979ED /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C83E772A0B1DB6009979ED /* FavoritesManager.swift */; };
 		51D9C3C42A093142000AF923 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9C3C32A093142000AF923 /* Color + Extension.swift */; };
@@ -40,6 +41,7 @@
 		51618DAA2A05481B00040E26 /* VisualiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualiserView.swift; sourceTree = "<group>"; };
 		51618DAC2A07D4A100040E26 /* AudioWaveVisualiserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveVisualiserView.swift; sourceTree = "<group>"; };
 		519B404C2A0BDF22005206EF /* AVRadio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVRadio.entitlements; sourceTree = "<group>"; };
+		519B404D2A0BEF9E005206EF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		51C83E672A0B0E95009979ED /* CountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
 		51C83E772A0B1DB6009979ED /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 		51D9C3C32A093142000AF923 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				51618D712A05302C00040E26 /* AVRadio */,
+				519B404D2A0BEF9E005206EF /* LICENSE.md */,
 				51618D702A05302C00040E26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51618D7A2A05303000040E26 /* Preview Assets.xcassets in Resources */,
+				519B404E2A0BEF9E005206EF /* LICENSE.md in Resources */,
 				51618D772A05303000040E26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
